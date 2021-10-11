@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box; /*indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lexend Deca, sans-serif;
+}
+
+header {
+    background: var(--linear);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.875rem;
+    font-size: 1rem;
+}
+
+.title, h1 h2 {
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: .2rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.search input {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--white);
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: var(--white);
+    opacity: 0.5;
+    font-size: 1rem;
+}
+
+main p, .info {
+    color: var(--text);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.35rem;
+}
+
+.info i {
+    color: var(--blue-dark);
+}
+
+article {
+    margin: 50px 20px;
+    background-color: var(--white);
+    box-shadow: -1px 1px 5px 2px #eeebeb;
+    padding: 15px;
+    border-radius: 0.3rem;
+}
+
+article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+    header {
+        padding: 1.5rem;
+    }
+
+    input {
+        font-size: 1rem;
+    }
+
+    .container {
+        margin: 0 15%;
+    }
+  
+    .info p {
+        font-size: 0.8rem;
+    }
+  
+    article h2 {
+        color: var(--title);
+        font-size: 1.55rem;
+    }
+
+    article p {
+        line-height: 1.45rem;
+        padding-top: 0.1875rem;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    header {
+        padding: 1.2rem;
+    }
+    
+    input {
+        font-size: 0.98rem;
+    }
+
+    .container {
+        margin: 0 10%;
+    }
+  
+    .info p {
+        font-size: 0.7rem;
+    }
+  
+    article h2 {
+        font-size: 1.1rem;
+    }
+
+    article p {
+        line-height: 1.25rem;
+        padding-top: 0.175rem;
+        font-size: 0.9rem;
+    }
+}
+  
+@media (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
+
+    .container {
+        margin: 0 5%;
+    }
+
+    .info p {
+        font-size: 0.75rem;
+    }
+
+    article h2 {
+        font-size: 1.2rem;
+    }
+
+    article p {
+        line-height: 1.2rem;
+        padding-top: 0.175rem;
+        font-size: 0.9rem;
+    }
+}
+  
+@media (max-width: 640px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    .container {
+        margin: 0;
+    }
+
+    .info p {
+        font-size: 0.75rem;
+    }
+
+    article h2 {
+        font-size: 1.2rem;
+    }
+
+    article p {
+        line-height: 1.15rem;
+        padding-top: 0.175rem;
+        font-size: 0.9rem;
+    }
+}

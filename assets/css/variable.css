@@ -1,0 +1,10 @@
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+  
+    --title: #313131;
+    --text: #7a7979;
+    
+    --linear: linear-gradient(90deg, #3d2dec 0%, #3EA1DB 100%);
+  }
