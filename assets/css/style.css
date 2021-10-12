@@ -22,7 +22,7 @@ header {
     font-size: 1rem;
 }
 
-.title, h1 h2 {
+.title h1, h2 {
     cursor: pointer;
 }
 
