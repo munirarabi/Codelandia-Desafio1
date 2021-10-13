@@ -1,11 +1,8 @@
 * {
+    font-family: Lexend Deca, sans-serif;
     box-sizing: border-box; /*indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding*/
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: Lexend Deca, sans-serif;
 }
 
 header {
@@ -22,15 +19,15 @@ header {
     font-size: 1rem;
 }
 
-.title h1, h2 {
-    cursor: pointer;
+.title h2 {
+    font-weight: 300;
 }
 
 .search {
     display: flex;
     align-items: center;
-    background: rgba(255, 255, 255, 0.2);
-    padding: .2rem 1rem;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0 1rem;
     border-radius: 0.3rem;
 }
 
