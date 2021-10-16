@@ -1,6 +1,7 @@
 * {
     font-family: Lexend Deca, sans-serif;
-    box-sizing: border-box; /*indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding*/
+    box-sizing: border-box;
+    /*indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding*/
     margin: 0;
     padding: 0;
 }
@@ -78,24 +79,19 @@ article a {
     header {
         padding: 1.5rem;
     }
-
     input {
         font-size: 1rem;
     }
-
     .container {
         margin: 0 15%;
     }
-  
     .info p {
         font-size: 0.8rem;
     }
-  
     article h2 {
         color: var(--title);
         font-size: 1.55rem;
     }
-
     article p {
         line-height: 1.45rem;
         padding-top: 0.1875rem;
@@ -107,71 +103,58 @@ article a {
     header {
         padding: 1.2rem;
     }
-    
     input {
         font-size: 0.98rem;
     }
-
     .container {
         margin: 0 10%;
     }
-  
     .info p {
         font-size: 0.7rem;
     }
-  
     article h2 {
         font-size: 1.1rem;
     }
-
     article p {
         line-height: 1.25rem;
         padding-top: 0.175rem;
         font-size: 0.9rem;
     }
 }
-  
+
 @media (max-width: 768px) {
     header {
         padding: 1rem;
     }
-
     .container {
         margin: 0 5%;
     }
-
     .info p {
         font-size: 0.75rem;
     }
-
     article h2 {
         font-size: 1.2rem;
     }
-
     article p {
         line-height: 1.2rem;
         padding-top: 0.175rem;
         font-size: 0.9rem;
     }
 }
-  
+
 @media (max-width: 640px) {
     header {
         padding: 0.5rem;
     }
-
     .container {
         margin: 0;
     }
-
     .info p {
         font-size: 0.75rem;
     }
-
     article h2 {
         font-size: 1.2rem;
     }
-
     article p {
         line-height: 1.15rem;
         padding-top: 0.175rem;
